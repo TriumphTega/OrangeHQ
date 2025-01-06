@@ -1,0 +1,91 @@
+@import url (`https://fonts.googleapis.com/css2?family=Poppins:wght@300; 400; 500; 600; 700&display=swap'' );
+
+*{
+  box-sizing: border-box;
+}
+
+html {
+  background: cadetblue;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+  display: grid;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.menu{
+  color: white;
+}
+
+.title{
+  color: white;
+}
+
+.profile{
+  color: white;
+}
+
+
+
+/* Float the colums side by side now*/
+
+.column {
+  float: left;
+  width: 33.2%;
+  padding:  10px;
+}
+
+/* Remove extra left and right margins, due to padding in colums */
+.row{
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns*/
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  color: aliceblue;
+  box-shadow: red;
+
+display: grid;
+text-wrap:pretty;
+color: whi;
+/* Card effects*/
+padding:  16px;
+text-align: center;
+background-color: cadetblue;
+
+}
+
+.card:hover {
+  top: -2px;
+  box-shadow: white;
+}
+
+/*Responsive columns - one column layout (vertical) on small screens */
+
+@media screen and (max-width: 600px) {
+  .column{
+    width: 100%;
+    display: ;
+    margin-bottom: 20px;
+  }
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

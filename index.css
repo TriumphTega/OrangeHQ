@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    background-color: rgb(243, 99, 22);
+    transition: background 0.5s ease;
+    position: relative;
+}
+
+
+

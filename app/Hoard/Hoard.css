@@ -1,0 +1,145 @@
+@import url ('https://fonts.googleapis.com/css2?family=Poppins:wght@300; 400; 500; 600; 700&display=swap' );
+
+html {
+  background:green;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+}
+
+.header{
+  justify-content: space-between;
+}
+.drawer{
+  color: black;
+}
+.profile{
+color: white;
+background-color: black;
+}
+
+ul{
+list-style: none;
+padding: 0 15px;
+}
+
+ul li{
+display: flex;
+align-items: center;
+Justify-content: flex-start;
+cursor: pointer;
+}
+
+ul li p{
+whitespace: nowrap;
+display: pointer;
+}
+
+.menu:hover{
+Width: 250px
+}
+
+.menu:hover ul li p{
+display: block;
+}
+
+.menu:hover ul li{
+justify-conent: flex-start;
+}
+
+.band {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  Padding-top: 20px;
+  
+  display: grid;
+  
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  
+}
+
+@media only screen and (min-width: 500px) {
+  .band {
+    grid-template-columns: 1fr 1fr;
+  }  
+  .item-1 {
+  grid-column: 1/ span 2;
+  }
+  .item-1 h1 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .band {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+/* card */
+
+.card {
+  min-height: 100%;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #444;
+  position: relative;
+  top: 0;
+  transition: all .1s ease-in;
+}
+
+.card:hover {
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+}
+
+.card article {
+  padding: 20px;
+  display: flex;
+  
+  flex: 1;
+  justify-content: space-between;
+  flex-direction: row;
+  
+}
+.card .thumb {
+  padding-bottom: 60%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.card p { 
+  flex: 1; /* make p grow to fill available space*/
+  line-height: 1.4;
+}
+
+/* typography */
+h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #333;
+}
+
+.card span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  margin: 2em 0 0 0;
+}
+
+.Dao{
+  margin-left:50%;
+}
+.hub{
+  margin-left: 50%;
+  margin-top: 100%;
+}

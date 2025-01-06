@@ -1,0 +1,24 @@
+@import url (`https://fonts.googleapis.com/css2?family=Poppins:wght@300; 400; 500; 600; 700&display=swap'' );
+
+html{
+    background: lightcoral;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    display: grid;
+    place-items: fill;
+    scroll-behavior: smooth;
+}
+
+.hub{
+    margin-left: 50%;
+    margin-top: 5%;
+    color: lightblue;
+}
+
+.Lore{
+    
+}
+
+.ST{
+   margin-top: 10%; 
+}

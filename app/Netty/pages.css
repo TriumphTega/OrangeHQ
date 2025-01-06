@@ -1,0 +1,86 @@
+@import url (`https://fonts.googleapis.com/css2?family=Poppins:wght@300; 400; 500; 600; 700&display=swap'' );
+
+html {
+    background: black;
+    font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+    display: grid;
+    place-items: fill;
+    scroll-behavior: smooth;
+} 
+
+.Sade{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header{
+  justify-content: space-between;
+}
+
+.btn-3d{
+    position: relative;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    bottom: 10%;
+    justify-content: space-between;
+}
+
+.btn-3d::before{
+    content:"";
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    right: 100;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(227, 85, 24);
+    transform: translateY(-100%);
+    transition: 0.5s;
+    justify-content: space-between;
+}
+
+.btn-3d:hover:before{
+    transform: translateY(0);
+}
+
+.Edges{
+  max-width: 100%;
+    padding: 1rem;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+        linear-gradient(
+            to bottom,
+            white,
+            rgba(0, 0, 0, 0)
+        )   1 100%;
+}
+
+    
+.chaphead {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Body {
+    font-family: monospace;
+    width: 95%; 
+    color: white;
+    font-size: large;
+}
+
+.page-nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Dao{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: green;
+}
