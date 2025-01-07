@@ -1,7 +1,7 @@
 @import url (`https://fonts.googleapis.com/css2?family=Poppins:wght@300; 400; 500; 600; 700&display=swap'' );
 
 html{
-    background: lightcoral;
+    background: black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     display: grid;
@@ -15,6 +15,16 @@ html{
     color: lightblue;
 }
 
+.Whitepaper{
+    text-align: center;
+}
+
+.Body{
+    font-family: monospace;
+    width: 95%; 
+    color: white;
+    font-size: large;
+}
 .Lore{
     
 }
