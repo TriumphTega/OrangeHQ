@@ -173,7 +173,7 @@ async function chargeUserForPage() {
       charge,
     };
     sessionStorage.chargeTable = JSON.stringify(store);
-    element.style.color = elementOpacity;
+    element.style.opacity = elementOpacity;
     return signature;
   });
 }
